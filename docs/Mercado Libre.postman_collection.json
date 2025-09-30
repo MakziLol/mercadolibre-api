@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "386cb496-c30a-4930-96b4-5eac14473306",
+		"name": "Mercado Libre",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30315942",
+		"_collection_link": "https://casa55-3122.postman.co/workspace/Casa~5d2a65bc-13b4-4499-93f9-10af135174e0/collection/30315942-386cb496-c30a-4930-96b4-5eac14473306?action=share&source=collection_link&creator=30315942"
+	},
+	"item": [
+		{
+			"name": "Get all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/products/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/products/get/25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"get",
+						"25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Test\",\r\n    \"category\": \"Gamer\",\r\n    \"price\": 1800000,\r\n    \"stock\": 35,\r\n    \"description\": \"\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/products/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"PC gamer INTEL I9 - RTX5080 - 64GB Ram\",\r\n    \"category\": \"Gamer\",\r\n    \"price\": 1900000,\r\n    \"stock\": 5,\r\n    \"description\": \"Computador Gamer, INTEL I9 - RTX5080 - 64GB Ram especial para jugar todo lo que quieras.\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/products/update/21",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"update",
+						"21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/products/delete/34",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"delete",
+						"34"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

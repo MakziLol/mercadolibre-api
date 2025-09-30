@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+mercadolibre-api,com.example.mercadolibreapi.controller,GlobalExceptionHandler,28,38,0,0,11,14,2,4,2,4
+mercadolibre-api,com.example.mercadolibreapi.controller,ProductController,0,38,0,0,0,9,0,5,0,5
+mercadolibre-api,com.example.mercadolibreapi.service.impl,ProductService,50,168,6,12,11,44,7,13,1,10
+mercadolibre-api,com.example.mercadolibreapi,MercadolibreApiApplication,5,3,0,0,2,1,1,1,1,1

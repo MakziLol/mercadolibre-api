@@ -1,0 +1,4 @@
+com\example\mercadolibreapi\service\impl\ProductServiceTest.class
+com\example\mercadolibreapi\controller\ProductControllerTest.class
+com\example\mercadolibreapi\dto\ProductResponseDtoTest.class
+com\example\mercadolibreapi\controller\GlobalExceptionHandlerTest.class
